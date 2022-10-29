@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">  
+  </head>
+  <body>
+    <div class="header-img">
+      <div class="title">
+        <h2>Book Recommender System</h2>
+      </div>
+      <div class="navigation-desktop">
+       <ul>
+         <li class="active"><a href="index.html">Home</a></li>
+         <li><a href="{{url_for('popular')}}">Popular Books</a></li>
+         <li><a href="{{url_for('author')}}">Books Based on Author</a></li>
+         <li><a href="{{url_for('recommend')}}">Book Recommendation</a></li>
+       </ul>
+     </div>
+     <div class="quote">
+       <h2><b><i>“Fairy tales are more than true: not because they tell us that dragons exist,<br> but because they tell us that dragons can be beaten.”</i></b></h2>
+       <span> - Neil Gaiman, Coraline</span>
+     </div>
+
+     <div class="developer-bottom">
+       <p>Developed by Aman Shrivastav</p>
+
+     </div>
+
+
+
+
+    </div>
+
+  </body>
+</html>

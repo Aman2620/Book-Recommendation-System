@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #f8fcf5;
+  /* margin-bottom: 100px; */
+}
+.header-img{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/homepage.jpg);
+  height: 800px;
+  width: auto;
+  /*background-image: linear-gradient(to top, #03dbfc,#21c0d9,#21a8d9,#2196d9,#2059c9);*/
+}
+.title{
+  float: left;
+  display: inline-flex;
+  color: #de074b;
+  padding-top: 30px;
+  margin-left: 15px;
+  font-size: 27px;
+}
+.navigation-desktop ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 10px;
+  /*background-image: linear-gradient(to right,#8b9493, #a1abaa , #beccca,#d5e3e1);*/
+  padding:5px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+.navigation-desktop ul li{
+  display: inline-flex;
+}
+.navigation-desktop ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  transition: 0.4s ease;
+}
+.navigation-desktop ul li a:hover{
+  background-color: #46e079;
+  color: #000;
+  border-radius: 6px;
+}
+.navigation-desktop ul li.active a{
+  background-color: #46e079;
+  color: #000;
+  border-radius: 6px;
+}
+
+.quote{
+  color: white;
+}
+.quote h2{
+  text-align: center;
+  padding-top: 23%;
+  font-size: 35px;
+}
+.quote span{
+  padding-left: 55%;
+}
+
+.developer-bottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  padding: 8px 8px 8px;
+  font-size: 15px;
+}
