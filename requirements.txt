@@ -210,12 +210,7 @@ tfserver==0.4.5.4
 threadpoolctl==3.0.0
 tifffile==2021.11.2
 timezonefinder==5.2.0
-torchvision==0.11.3
-tornado==6.1
 tqdm==4.62.3
-traitlets==5.1.0
-trio==0.19.0
-trio-websocket==0.9.2
 ttictoc==0.5.6
 typing_extensions==4.1.1
 urllib3==1.26.7
